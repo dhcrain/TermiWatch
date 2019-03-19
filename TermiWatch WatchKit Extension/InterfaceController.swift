@@ -114,8 +114,8 @@ let localizedTemperatureStyle: (MeasurementFormatter) -> Void = {
 
 func progressBarString(percent: UInt, steps: UInt) -> String? {
   let fillCount = Int((Float(steps) * (Float(percent) / 100.0)).rounded())
-  let full = String(repeating: "#", count: fillCount)
-  let empty = String(repeating: ".", count: Int(steps) - fillCount)
+  let full = String(repeating: "█", count: fillCount)
+  let empty = String(repeating: "░", count: Int(steps) - fillCount)
 
   return "[\(full + empty)]"
 }

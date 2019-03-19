@@ -42,6 +42,7 @@ xcuserdata/
 # Carthage/Checkouts
 
 Carthage/Build
+Carthage/Checkouts
 
 # fastlane
 #
@@ -63,3 +64,5 @@ fastlane/test_output
 iOSInjectionProject/
 
 *.DS_Store
+
+
